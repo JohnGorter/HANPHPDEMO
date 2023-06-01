@@ -1,0 +1,57 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "name": "john",
+            "group": "john",
+            "connectString": "cursus.fleetconsulting.nl"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "database": "sanin_data",
+            "username": "sanin",
+            "password": "yFZHUKMQZ",
+            "name": "john",
+            "group": "john"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "cursus.fleetconsulting.nl",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "sanin_mysql",
+            "database": "sanin_data",
+            "username": "sanin",
+            "password": "yFZHUKMQZ"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MariaDB",
+            "name": "localhost",
+            "database": "classicmodels",
+            "username": "root"
+        }
+    ]
+}
