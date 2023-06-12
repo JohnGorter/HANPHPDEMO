@@ -13,9 +13,10 @@ echo $method;
 if ($method != "POST") {
     echo $_SESSION["role"];
     $title  = "login";
-    $content = generateLoginPanel(); 
+    $content = generateLoginPanel(""); 
 } else {
-    
+    // $title = "dangerous data";
+    // $content = generateLoginPanel(htmlspecialchars_decode("&lt;script&gt;alert(&#039;john&#039;);&lt;/script&gt;")); 
     $username = $_POST["username"];
     $pwd = $_POST["password"];
 

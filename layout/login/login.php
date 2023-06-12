@@ -1,6 +1,6 @@
 <?php
 
-function generateLoginPanel(){
+function generateLoginPanel($content){
     return <<<LOGIN
         <form method="POST">
             <dl>
@@ -11,6 +11,7 @@ function generateLoginPanel(){
             </dl>
             <input type="submit" value="Login" />
         </form>
+        <p>$content</p>
     LOGIN;
 }
 ?>
